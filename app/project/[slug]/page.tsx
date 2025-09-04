@@ -30,23 +30,35 @@ const projectData: Record<string, any> = {
         images: ["/placeholder.svg?height=600&width=1200"],
       },
       process: {
-        heading: "Story Collection",
-        content: "Conducting interviews and gathering artifacts to understand different interpretations of home.",
-        images: ["/placeholder.svg?height=600&width=1200"],
+
+      subsections: [
+          {
+            heading: "Story Collection",
+            content:
+              "In order to deeply understand each person's concept of home, I organized interviews with them and had them draw as they shared. Questions were asked only to prompt interviewees if they were having trouble visualizing or remembering. Some preferred having a box to draw within, while others freely doodled all over the page.  Overall, I conducted twelve interviews and selected the ones that allowed for the most range in terms of themes and upbringings. Then, using their sketches and recordings of our interviews, I created templates that I could cut and assemble.",
+            images: ["/placeholder.svg?height=600&width=1200"],
+          },
+          {
+            heading: "Building a Home",
+            content:
+              "I knew I wanted to use paper for these structures since I enjoyed the idea of the two-dimensional paper the interviewees used to sketch, turning into a three-dimensional model they could interact with. After a series of experiments, the best performing material proved to be bristol board, with its stiffness providing support and smoothness offering a clean aesthetic. Additionally, I prototyped various versions of a room (drawings printed onto the paper, coloring all surfaces, pop-up style, etc.), but feedback from my interviewees informed my decisions to leave the paper blank and fully construct 3D miniatures. Only the key elements from each room would be highlighted by making them out of colored papers. Everything was cut out using a Cricut Maker for the most precise edges, then glued by hand.",
+            images: ["/placeholder.svg?height=600&width=1200"],
+          },
+        ],
       },
       interaction: {
-        heading: "Tactile Experience",
-        content: "Creating interactive dollhouse scenes that invite viewers to explore personal narratives.",
+        heading: "Explore & Enjoy",
+        content: "Each room has some combination of moveable parts, furniture pieces scaled to dolls, and hidden details. On top of that, they are modular and can be moved around within the dollhouse's frame to customize the layout of the home.",
         images: ["/placeholder.svg?height=600&width=1200"],
       },
       gallery: {
-        heading: "Exhibition Display",
-        content: "Final dollhouse installations showcasing diverse stories of home and belonging.",
+        heading: "Written Form",
+        content: "Zines made to keep record of each individual's stories, miniature homes, and spoken words.",
         images: ["/placeholder.svg?height=600&width=1200"],
       },
       reflection: {
         heading: "Tangible Storytelling",
-        content: "Understanding how physical objects can preserve and communicate deeply personal experiences.",
+        content: "This dollhouse is simply a miniature model of a house. No screens, no buttons, no speakers... and yet, inherently interactive and engaging. Simplicity is often just as effective as complex ideas. This project made me confident that I could design an experience that was humble, but memorable. Additionally, the responses I received from the showcase reinforced the idea that products and spaces (as Hiraeth is, in a way, both) are effective media for storytelling, as friends and strangers alike commented that the mini rooms touched their hearts. I greatly enjoyed utilizing skills like model-making, UX research, and iterative prototyping that I had learned throughout the years, and pouring them into a project that resonated with my soul. Many thanks to Nicki, Roy, Minjoo, Izzy, Julianne, and Hannah for being so open and sharing your stories with me. When I began this project, I was only sure of two things--I wanted to connect with people and build something physical. Little did I know that would lead me to form such deep relationships with the people who were willing to participate. Moreover, thanks to Peter for always offering feedback, and to Dylan for being the most encouraging professor and consistently providing me with pep talks. Lastly, thank you Pittsburgh, for being a place where I now consider home.",
       },
     },
     programs: ["Adobe Ai/PS", "Cricut"],
@@ -148,7 +160,6 @@ const projectData: Record<string, any> = {
         content:
           "As an exercise to begin this project, my team and I recorded each time we used AI in a week. What we found was that almost everything we did on our devices used artificial intelligence in some way, revealing that it is more deeply incorporated in our lives than we had thought. The most common types of AI we encountered were Generative (Grammarly, ChatGPT, Dall-E), Computer Vision (Face ID, Zoom), and Algorithmic (Social Media, Google Search Engine). How can we be more mindful about our usage of AI?",
         images: ["/images/frame-62.png", "/images/frame-63.png"],
-        imageLayout: "side-by-side",
       },
       concept: {
         heading: "Communication Through Behavior",
@@ -210,7 +221,6 @@ const projectData: Record<string, any> = {
               'The user can reflect on their AI usage trends with the widget, which visualizes the data Orli has collected. Similarly to a "screentime" application, the statistics include the time spent using each type of AI over time and the platforms on which you used AI most.',
             images: ["/images/stats-visualization.webp", "/images/windows-desktop.png"],
             captions: ["Usage statistics interface", "Desktop widget showing AI usage trends"],
-            imageLayout: "side-by-side",
           },
           {
             heading: "User Journey",
@@ -221,7 +231,7 @@ const projectData: Record<string, any> = {
       },
       gallery: {
         heading: "Physical Prototype",
-        images: ["/placeholder.svg?height=400&width=800"],
+        images: ["/images/orli-installation.png", "/images/orli-installation.png"],
       },
       reflection: {
         heading: "Personality of Products",
@@ -309,7 +319,7 @@ const projectData: Record<string, any> = {
       reflection: {
         heading: "Playtesting & Prototyping",
         content:
-          "As this project was a physical product, it required numerous rounds of iteration and user testing. There were countless considerations, as well as various modes of research that led to the finished result. Interviews, lo-fi models, roleplays, material tests, technological limits, etc. are a few examples things I found key to solidifying each and every design decision. Thus, I've come to view projects practically and consider every detail when drafting an experience.",
+          "As this project was a physical product, it required numerous rounds of iteration and user testing. There were countless considerations, as well as various modes of research that led to the finished result. Interviews, lo-fi models, roleplays, material tests, technological limits, etc. are a few examples things I found key to solidifying each and every design decision. Thus, I've come to view projects practically and consider every detail when drafting an experience. Thanks to my team members, Helen and Juhi, for being delightful collaborators with skills that I lacked and hardworking attitudes throughout the whole duration of the project. And to Dina, for advising us when we needed direction.",
       },
     },
     programs: ["Figma", "Adobe Ai/PS/Ae", "p5.js"],
@@ -1150,7 +1160,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                           )}
 
                           {/* Special handling for interaction subsections */}
-                          {sectionKey === "interaction" && section.subsections && (
+                            {section.subsections && (
                             <div className="space-y-12 mt-8">
                               {section.subsections.map((subsection: any, subIndex: number) => (
                                 <div key={subIndex} className="space-y-6">
