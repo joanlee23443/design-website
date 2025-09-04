@@ -87,8 +87,8 @@ const projectData: Record<string, any> = {
       },
       process: {
         heading: "Where + How",
-        content: "Location/why. 3d modeling. partis. ui/ux. logistics like the non-playable character moderators. KPI's (newsletter sign-ups and social media posts) step by step of beginning (seeing the structure in the distance) to end (leaving the experience with newfound attitudes).",
-        images: ["/images/shwood-hero.jpg"],
+        content: "I selected Market Square in downtown Pittsburgh as the project location. This site often hosts live events and vendors, and is right beside office buildings like PPG Place and PNC Bank. The green of the nature in Shwood's pop-up would contrast with the gray surroundings, which would intrigue anyone walking by. The time of year this event would set up would be spring or summer, as those seasons bring in an influx of new employees to the city and weather nice enough for participation in an outdoor activity. As for the visualization of this concept, I was able to 3D model, design UI, iterate on spatial movements, roleplay emotional reactions, and consider logistics, such as the presence of moderators in the form of NPC-like actors. I learned to refine every step, from beginning (seeing the structure in the distance) to end (leaving with newfound attitudes). Additionally, based on the objectives, I decided that the KPIs of this experience would be newsletter sign-ups and social media posts.",
+        images: ["/images/shwood-location.png", "/images/shwood-figma-process.png", "/images/shwood-3d-modeling.png"],
       },
       interaction: {
       subsections: [
@@ -96,7 +96,7 @@ const projectData: Record<string, any> = {
             heading: "First Contact",
             content:
               "For the average office worker in downtown Pittsburgh, the initial impression of this pop-up is curiosity. What is that patch of green on this otherwise gray view? Something's different between these cubicles and the ones they just left...",
-            images: ["/images/shwood-outdoor-view.png", "/images/forrest-shwoodson-interior.jpeg"],
+            images: ["/images/shwood-grid-aerial.png", "/images/shwood-outdoor-view.png", "/images/forrest-shwoodson-interior.jpeg"],
           },
           {
             heading: "Into the Woods",
