@@ -96,7 +96,7 @@ const projectData: Record<string, any> = {
             heading: "First Contact",
             content:
               "For the average office worker in downtown Pittsburgh, the initial impression of this pop-up is curiosity. What is that patch of green on this otherwise gray view? Something's different between these cubicles and the ones they just left...",
-            images: ["/images/shwood-final-parti.png", "/images/shwood-outdoor-view.png", "/images/forrest-shwoodson-interior.jpeg"],
+            images: ["/images/shwood-outdoor-view.png", "/images/forrest-shwoodson-interior.jpeg"],
           },
           {
             heading: "Into the Woods",
