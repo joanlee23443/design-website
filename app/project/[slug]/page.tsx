@@ -21,7 +21,7 @@ const projectData: Record<string, any> = {
         heading: "What is Home?",
         content:
           "Hiraeth: a deep longing and nostalgia for a home that may or may not have ever existed. This was my last project in school, so I took the opportunity to create something personally meaningful and connect with people around me on a deeper level. As someone who has moved throughout my childhood, I have been unable to consider my place of living my home ever since I left my first house. Home looks different for everyone and it might not be a place that actually exists. Maybe it's a combination of places that exist. Or a place that exists only in the heart. Perhaps it's literally your childhood home, or at least the parts that you remember. To me, a home is a place that holds my dearest memories, fills me with comfort and nostalgia, and evokes a sense of belonging. It is a combination of all the places I've lived and people I've loved, so I was curious as to what home looked like to some of the people who made Pittsburgh home to me for the past four years.",
-        images: ["/placeholder.svg?height=600&width=1200"],
+        images: ["/images/recent-project-interior.jpeg"],
       },
       concept: {
         heading: "Interactive History",
@@ -49,7 +49,7 @@ const projectData: Record<string, any> = {
       interaction: {
         heading: "Explore & Enjoy",
         content: "Each room has some combination of moveable parts, furniture pieces scaled to dolls, and hidden details. On top of that, they are modular and can be moved around within the dollhouse's frame to customize the layout of the home.",
-        images: ["/placeholder.svg?height=600&width=1200"],
+        images: ["/images/recent-project-interior.jpeg", "/images/recent-project-interior.jpeg"],
       },
       gallery: {
         heading: "Written Form",
