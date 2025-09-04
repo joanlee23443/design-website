@@ -83,12 +83,12 @@ const projectData: Record<string, any> = {
       concept: {
         heading: "Bringing Adventure Into the Everyday",
         content: "A familiar, mundane office cubicle that's been... consumed by nature? Why is there a computer with a half-wooden keyboard asking for a password? Explore this curious space and search for answers with Shwood as you sift through drawers full of foliage and printers that dispense bark.",
-        images: ["/placeholder.svg?height=600&width=1200"],
+        images: ["/images/shwood-hero.jpg"],
       },
       process: {
         heading: "Where + How",
         content: "Location/why. 3d modeling. partis. ui/ux. logistics like the non-playable character moderators. KPI's (newsletter sign-ups and social media posts) step by step of beginning (seeing the structure in the distance) to end (leaving the experience with newfound attitudes).",
-        images: ["/placeholder.svg?height=600&width=1200"],
+        images: ["/images/shwood-hero.jpg"],
       },
       interaction: {
       subsections: [
