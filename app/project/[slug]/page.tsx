@@ -102,13 +102,14 @@ const projectData: Record<string, any> = {
             heading: "Into the Woods",
             content:
               "A screen is showing live footage from the room, allowing visitors to see themselves in this strange environment. When a key is pressed, a pop up window asks visitors to look for passwords that unlock the Shwood archives. They must search around the room for pairs of glasses that contain the answers.",
-            images: [""],
+            imageLayout: "grid-cols-2",
+            images: ["/images/shwood-live-cam.png", "/images/shwood-ui.png"],
           },
           {
             heading: "This is Shwood",
             content:
               "Each pair of glasses with its unique password unlocks a video from the Shwood archives. Each reel is a comical, absurd version of the history behind each pair of glasses or the founding story. The style of each clip is reminiscent of 70's slapstick, highlighting Shwood's quirky personality.",
-            images: [""],
+            images: ["/images/shwood-closeup.png", "/images/shwood-inlays.png", "/images/shwood-ui.png"],
           },
           {
             heading: "For All Your Touble...",
@@ -126,8 +127,8 @@ const projectData: Record<string, any> = {
       },
       gallery: {
         heading: "Spatial Model",
-        content: "",
-        images: ["/placeholder.svg?height=600&width=1200"],
+        imageLayout: "grid-cols-2",
+        images: ["/images/shwood-1-physmod.png", "/images/shwood-2-physmod.png", "/images/shwood-3-physmod.jpg"],
       },
       reflection: {
         heading: "Designing is Worldbuilding",
