@@ -109,19 +109,19 @@ const projectData: Record<string, any> = {
             heading: "This is Shwood",
             content:
               "Each pair of glasses with its unique password unlocks a video from the Shwood archives. Each reel is a comical, absurd version of the history behind each pair of glasses or the founding story. The style of each clip is reminiscent of 70's slapstick, highlighting Shwood's quirky personality.",
-            images: ["/images/shwood-closeup.png", "/images/shwood-inlays.png", "/images/shwood-ui.png"],
+            images: ["/images/shwood-closeup.png", "/images/shwood-inlays.png", "/images/shwood-video.png"],
           },
           {
             heading: "For All Your Touble...",
             content:
               "After the video finishes playing, there is a reward for finding the password--a discount on one Shwood eyewear product! Each pair of glasses have their own special codes, so visitors can collect discounts for multiple pairs of glasses if they wish. They can also exit out of the window and take selfies in the computer wearing the glasses they just found. Moderators will give instructions to stash them away again before they leave for the next visitors to find.",
-            images: [""],
+            images: ["/images/shwood-reward.png"],
           },
           {
             heading: "Leaving with Fresh Eyes",
             content:
               "Visitors may visit the other cubicles as well and be amazed at each office that has been swallowed up by seashells, stone, and even feathers, which are all materials Shwood uses in their products. If not, they can feel free to leave and take with them a newfound attitude towards the mundane. With Shwood, even the everyday can be an adventure!",
-            images: [""],
+            images: ["/images/shwood-cubicle-concepts.png"],
           },
         ],
       },
