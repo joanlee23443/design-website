@@ -231,7 +231,8 @@ const projectData: Record<string, any> = {
       },
       gallery: {
         heading: "Physical Prototype",
-        images: ["/images/orli-installation.png", "/images/orli-installation.png"],
+        imageLayout: "grid-cols-2",
+        images: ["/images/orli-installation.png", "/images/orli-title-slide.png"],
       },
       reflection: {
         heading: "Personality of Products",
@@ -957,21 +958,39 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                                   </div>
                                 </div>
                               ) : sectionKey === "gallery" ? (
-                                <div className="space-y-6">
-                                  {section.images.map((image: string, imgIndex: number) => (
-                                    <div key={imgIndex} className="relative w-full">
-                                      <Image
-                                        src={image || "/placeholder.svg"}
-                                        alt={`${project.title} - ${section.heading} ${imgIndex + 1}`}
-                                        width={800}
-                                        height={450}
-                                        className="object-cover w-full h-auto rounded"
-                                        loading="lazy"
-                                        quality={85}
-                                      />
-                                    </div>
-                                  ))}
-                                </div>
+                                section.imageLayout === "grid-cols-2" ? (
+                                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    {section.images.map((image: string, imgIndex: number) => (
+                                      <div key={imgIndex} className="relative w-full">
+                                        <Image
+                                          src={image || "/placeholder.svg"}
+                                          alt={`${project.title} - ${section.heading} ${imgIndex + 1}`}
+                                          width={900}
+                                          height={675}
+                                          className="w-full h-auto rounded object-cover"
+                                          sizes="(min-width: 640px) 50vw, 100vw"
+                                          quality={85}
+                                        />
+                                      </div>
+                                    ))}
+                                  </div>
+                                ) : (
+                                  <div className="space-y-6">
+                                    {section.images.map((image: string, imgIndex: number) => (
+                                      <div key={imgIndex} className="relative w-full">
+                                        <Image
+                                          src={image || "/placeholder.svg"}
+                                          alt={`${project.title} - ${section.heading} ${imgIndex + 1}`}
+                                          width={800}
+                                          height={450}
+                                          className="object-cover w-full h-auto rounded"
+                                          loading="lazy"
+                                          quality={85}
+                                        />
+                                      </div>
+                                    ))}
+                                  </div>
+                                )
                               ) : sectionKey === "process" && params.slug === "unhuman" ? (
                                 // Special 2x2 collage layout for UNHUMAN process section with consistent row heights
                                 <div className="space-y-4">
