@@ -35,7 +35,7 @@ const projectData: Record<string, any> = {
           {
             heading: "Story Collection",
             content:
-              "In order to deeply understand each person's concept of home, I organized interviews with them and had them draw as they shared. Questions were asked only to prompt interviewees if they were having trouble visualizing or remembering. Some preferred having a box to draw within, while others freely doodled all over the page.  Overall, I conducted twelve interviews and selected the ones that allowed for the most range in terms of themes and upbringings. Then, using their sketches and recordings of our interviews, I created templates that I could cut and assemble.",
+              "In order to deeply understand each person's concept of home, I organized interviews with them and had them draw as they shared. Questions were asked only to prompt interviewees if they were having trouble visualizing or remembering. Some preferred having a box to draw within, while others freely doodled all over the page.  Overall, I conducted ten interviews and selected the ones that allowed for the most range in terms of themes and upbringings. Then, using their sketches and recordings of our interviews, I created templates that I could cut and assemble.",
             images: ["/placeholder.svg?height=600&width=1200"],
           },
           {
