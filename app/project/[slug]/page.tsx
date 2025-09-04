@@ -78,7 +78,7 @@ const projectData: Record<string, any> = {
       context: {
         heading: "Brand Essence",
         content: "<a href='https://shwoodshop.com/' target='_blank' rel='noopener noreferrer' class='underline hover:text-gray-300'>Shwood</a> is an eyewear brand that stands out for its broad use of materials in its frames. They are also known for their lighthearteded personality and quirky founding story. How can we showcase these selling points while bringing in a new audience? Full research deck <a href='https://drive.google.com/file/d/1-jgz-RmeiwWJT8-CGl1qDOFRyXae3XFp/view?usp=sharing' target='_blank' rel='noopener noreferrer' class='underline hover:text-gray-300'>here</a>.",
-        images: ["/placeholder.svg?height=600&width=1200"],
+        images: ["/images/shwood-research.png"],
       },
       concept: {
         heading: "Bringing Adventure Into the Everyday",
@@ -232,7 +232,7 @@ const projectData: Record<string, any> = {
       gallery: {
         heading: "Physical Prototype",
         imageLayout: "grid-cols-2",
-        images: ["/images/orli-installation.png", "/images/orli-title-slide.png"],
+        images: ["/images/orli-installation.png", "/images/orli-title-slide.png", "/images/orli-3d-print.avif", "/images/orli-tech-diagram.webp"],
       },
       reflection: {
         heading: "Personality of Products",
