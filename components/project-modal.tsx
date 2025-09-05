@@ -71,7 +71,10 @@ export default function ProjectModal({
                   <span>{project.year}</span>
                   <span>{project.client}</span>
                 </div>
-                <p className="text-gray-300 leading-relaxed text-sm mb-6">{project.description}</p>
+                <div
+                  className="text-gray-300 leading-relaxed text-sm mb-6"
+                  dangerouslySetInnerHTML={{ __html: project.description }}
+                />
               </div>
 
               <div className="space-y-4">
