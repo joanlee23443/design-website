@@ -9,7 +9,7 @@ const archiveProjects = [
   {
     id: "shwarriors-board-game",
     title: "Shwarriors: The Board Game",
-    image: "/images/shwarriors-board-min.jpg",
+    image: "/images/shwarriors-cover.png",
     year: "2024",
     client: "Shwood Eyewear",
     description:
