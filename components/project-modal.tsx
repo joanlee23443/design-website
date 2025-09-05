@@ -79,12 +79,15 @@ export default function ProjectModal({
 
               <div className="space-y-4">
                 {project.images.map((image, index) => (
-                  <div key={index} className="relative aspect-video">
+                  <div key={index} className="relative w-full">
                     <Image
                       src={image || "/placeholder.svg"}
                       alt={`${project.title} - Image ${index + 1}`}
-                      fill
-                      className="object-cover rounded"
+                      width={1600}       // any reasonable large width
+                      height={1000}      // height roughly matching your typical aspect
+                      className="w-full h-auto rounded max-h-[70vh] object-contain"
+                      sizes="(min-width: 1024px) 900px, 100vw"
+                      priority={index === 0}
                     />
                   </div>
                 ))}
