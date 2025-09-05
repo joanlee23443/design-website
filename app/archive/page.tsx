@@ -58,14 +58,12 @@ const archiveProjects = [
   {
     id: "pitt-water-map",
     title: "PGH Water Quality Systems Map",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/pgh-water.avif",
     year: "2022",
     description:
-      "A comprehensive wayfinding system that combines physical and digital elements to improve navigation in complex urban environments.",
+      "Systems map of the urgent matter that is Pittsburgh's highly contaminated water, from the root causes to possible interventions.",
     images: [
-      "/placeholder.svg?height=600&width=1200",
-      "/placeholder.svg?height=600&width=1200",
-      "/placeholder.svg?height=600&width=1200",
+      "/images/pgh-water.avif",
     ],
   {
     id: "mixed-illust",
