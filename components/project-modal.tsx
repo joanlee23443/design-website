@@ -83,15 +83,16 @@ export default function ProjectModal({
                     <Image
                       src={image || "/placeholder.svg"}
                       alt={`${project.title} - Image ${index + 1}`}
-                      width={1600}       // any reasonable large width
-                      height={1000}      // height roughly matching your typical aspect
-                      className="w-full h-auto rounded max-h-[70vh] object-contain"
+                      width={1600}          // any reasonable dimensions that match your image aspect
+                      height={1000}
+                      className="w-full h-auto rounded"  // fills width, keeps aspect; no cropping
                       sizes="(min-width: 1024px) 900px, 100vw"
                       priority={index === 0}
                     />
                   </div>
                 ))}
               </div>
+
             </div>
 
             {showProcess && (
