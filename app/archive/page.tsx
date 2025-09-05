@@ -37,7 +37,7 @@ const archiveProjects = [
     title: "Type Studies",
     image: "/placeholder.svg?height=400&width=400",
     year: "2023",
-    client: "Arts & Culture Festival",
+    client: "Highmark Health",
     description:
       "A multi-sensory pavilion that engages visitors through sound, light, texture, and scent to create immersive experiential narratives.",
     images: [
@@ -57,11 +57,10 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
     ],
   {
-    id: "wayfinding-system",
-    title: "Wayfinding System",
+    id: "pitt-water-map",
+    title: "PGH Water Quality Systems Map",
     image: "/placeholder.svg?height=400&width=400",
     year: "2022",
-    client: "Metropolitan Transit Authority",
     description:
       "A comprehensive wayfinding system that combines physical and digital elements to improve navigation in complex urban environments.",
     images: [
@@ -70,11 +69,9 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
     ],
   {
-    id: "illustrations-mixed",
-    title: "Illustrations",
+    id: "mixed-illust",
+    title: "2D/3D Illustrations",
     image: "/placeholder.svg?height=400&width=400",
-    description:
-      "Drawings, paintings, and other traditional artwork that braid together nature and manmade objects.",
     images: [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
