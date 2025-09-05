@@ -20,21 +20,21 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
     ],
   {
-    id: "interactive-facade",
-    title: "Interactive Building Facade",
+    id: "orlando-segd",
+    title: "SEGD Orlando: Type + Environmental Design",
     image: "/placeholder.svg?height=400&width=400",
-    year: "2022",
-    client: "Urban Development Corp",
+    year: "2023",
+    client: "City of Orlando",
     description:
-      "A responsive building facade that creates dynamic visual displays based on environmental data and pedestrian interaction.",
+      "Type, logo, signage, and merchandise design for a speculative SEGD conference in Orlando, Florida.",
     images: [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
     ],
   {
-    id: "sensory-pavilion",
-    title: "Sensory Experience Pavilion",
+    id: "type-studies",
+    title: "Type Studies",
     image: "/placeholder.svg?height=400&width=400",
     year: "2023",
     client: "Arts & Culture Festival",
@@ -46,13 +46,11 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
     ],
   {
-    id: "digital-landscape",
-    title: "Digital Landscape Design",
+    id: "animal-project",
+    title: "California Brown Pelican: A 3-Part Series",
     image: "/placeholder.svg?height=400&width=400",
-    year: "2024",
-    client: "Future Cities Initiative",
-    description:
-      "A digital landscape installation that visualizes urban data flows and creates interactive environments for public engagement.",
+    year: "2022",
+    description: `Telling the story of the endangered bird with a 2D illustration, 3D sculpture, and animation. Full process on <a href="https://medium.com/@joanlee2" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-300">Medium</a>.`,
     images: [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
@@ -72,11 +70,11 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
     ],
   {
-    id: "drawings-paintings",
+    id: "illustrations-mixed",
     title: "Illustrations",
     image: "/placeholder.svg?height=400&width=400",
     description:
-      "Drawings, paintings, and other traditional artwork.",
+      "Drawings, paintings, and other traditional artwork that braid together nature and manmade objects.",
     images: [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
