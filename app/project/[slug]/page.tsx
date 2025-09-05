@@ -16,6 +16,7 @@ const projectData: Record<string, any> = {
     description:
       'A collection of my friends\' childhood stories, sentimental objects, and interpretations of "home" in dollhouse form.',
     heroImage: "/images/recent-project-interior.jpeg",
+    introImage: "/images/hiraeth-hero-pic.png",
     sections: {
       context: {
         heading: "What is Home?",
@@ -27,7 +28,7 @@ const projectData: Record<string, any> = {
         heading: "Interactive History",
         content:
           "A series of miniature spaces, designed based on various individuals' personal interpretations of home. Each room can be stacked in a box that allows it to be played with as a dollhouse, just as one did as a child, making new stories within the context of the old. Perhaps even strangers can find a home within Hiraeth's paper walls when they read through the small zines that contain personal accounts that pertain to each room.",
-        images: ["/images/recent-project-interior.jpeg"],
+        images: ["/images/hiraeth-rooms.png", "/images/hiraeth-rooms.png"],
       },
       process: {
 
@@ -36,7 +37,7 @@ const projectData: Record<string, any> = {
             heading: "Story Collection",
             content:
               "In order to deeply understand each person's concept of home, I organized interviews with them and had them draw as they shared. Questions were asked only to prompt interviewees if they were having trouble visualizing or remembering. Some preferred having a box to draw within, while others freely doodled all over the page.  Overall, I conducted ten interviews and selected the ones that allowed for the most range in terms of themes and upbringings. Then, using their sketches and recordings of our interviews, I created templates that I could cut and assemble.",
-            images: ["/placeholder.svg?height=600&width=1200"],
+            images: ["/images/hiraeth-drawings1.png", "/images/hiraeth-drawings2.png", "/images/hiraeth-drawings3.png"],
           },
           {
             heading: "Building a Home",
@@ -643,6 +644,20 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                       </p>
                     ))}
                   </div>
+                  {project.introImage && (
+                    <div className="mt-8">
+                      <Image
+                        src={project.introImage}
+                        alt={`${project.title} intro`}
+                        width={1200}
+                        height={800}
+                        className="w-full h-auto rounded object-contain"
+                        sizes="(min-width: 1024px) 900px, 100vw"
+                        quality={85}
+                        priority={false}
+                      />
+                    </div>
+                  )}
                 </div>
               </ScrollReveal>
 
