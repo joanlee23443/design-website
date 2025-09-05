@@ -7,37 +7,18 @@ import ProjectModal from "@/components/project-modal"
 
 const archiveProjects = [
   {
-    id: "spatial-branding",
-    title: "Spatial Branding Project",
+    id: "shwarriors-board-game",
+    title: "Shwarriors: The Board Game",
     image: "/placeholder.svg?height=400&width=400",
-    year: "2023",
-    client: "Brand Innovation Lab",
+    year: "2024",
+    client: "Shwood Eyewear",
     description:
-      "A comprehensive spatial branding experience that translates brand identity into physical environments through interactive installations.",
+      "Highlights the unique, natural materials used by Shwood in their products in the form of a game you can play anywhere, from a camping trip in your living room. Meant to encourage adventure and play in your everyday life.",
     images: [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
     ],
-    process: [
-      {
-        phase: "Brand Analysis",
-        description: "Deep dive into brand values and identity to understand core messaging and visual language.",
-      },
-      {
-        phase: "Spatial Strategy",
-        description: "Developed strategies for translating 2D brand elements into immersive 3D experiences.",
-      },
-      {
-        phase: "Experience Design",
-        description: "Created touchpoints and interactions that reinforce brand messaging through spatial design.",
-      },
-      {
-        phase: "Implementation & Testing",
-        description: "Executed the installation and gathered feedback to optimize brand engagement.",
-      },
-    ],
-  },
   {
     id: "interactive-facade",
     title: "Interactive Building Facade",
@@ -51,25 +32,6 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
     ],
-    process: [
-      {
-        phase: "Site Research",
-        description: "Analyzed building context, pedestrian patterns, and environmental conditions.",
-      },
-      {
-        phase: "Technology Integration",
-        description: "Developed sensor networks and display systems for real-time environmental response.",
-      },
-      {
-        phase: "Visual Programming",
-        description: "Created algorithms that translate data into compelling visual patterns and animations.",
-      },
-      {
-        phase: "Installation & Calibration",
-        description: "Coordinated complex installation process and fine-tuned system responsiveness.",
-      },
-    ],
-  },
   {
     id: "sensory-pavilion",
     title: "Sensory Experience Pavilion",
@@ -83,25 +45,6 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
     ],
-    process: [
-      {
-        phase: "Sensory Research",
-        description: "Studied how different senses can be combined to create meaningful and memorable experiences.",
-      },
-      {
-        phase: "Material Exploration",
-        description: "Experimented with various materials and technologies to engage multiple sensory channels.",
-      },
-      {
-        phase: "Journey Mapping",
-        description: "Designed visitor pathways that create crescendos and transitions in sensory engagement.",
-      },
-      {
-        phase: "Calibration & Testing",
-        description: "Fine-tuned sensory elements to ensure comfortable yet impactful visitor experiences.",
-      },
-    ],
-  },
   {
     id: "digital-landscape",
     title: "Digital Landscape Design",
@@ -115,25 +58,6 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
     ],
-    process: [
-      {
-        phase: "Data Analysis",
-        description: "Analyzed urban data streams to identify patterns and stories worth visualizing.",
-      },
-      {
-        phase: "Visualization Strategy",
-        description: "Developed approaches for making complex data accessible and engaging to the public.",
-      },
-      {
-        phase: "Interactive Design",
-        description: "Created interfaces that allow visitors to explore and manipulate data visualizations.",
-      },
-      {
-        phase: "Public Testing",
-        description: "Conducted public trials to ensure the installation was both educational and engaging.",
-      },
-    ],
-  },
   {
     id: "wayfinding-system",
     title: "Wayfinding System",
@@ -147,25 +71,6 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
     ],
-    process: [
-      {
-        phase: "User Journey Analysis",
-        description: "Mapped user journeys and identified pain points in existing navigation systems.",
-      },
-      {
-        phase: "System Design",
-        description: "Developed integrated physical and digital wayfinding solutions for seamless navigation.",
-      },
-      {
-        phase: "Prototype Testing",
-        description: "Created and tested prototypes with real users in various environmental conditions.",
-      },
-      {
-        phase: "Implementation & Rollout",
-        description: "Coordinated system-wide implementation and trained staff on maintenance procedures.",
-      },
-    ],
-  },
   {
     id: "drawings-paintings",
     title: "Illustrations",
@@ -177,25 +82,6 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
     ],
-    process: [
-      {
-        phase: "Site Scouting",
-        description: "Identified underutilized spaces with potential for temporary community activation.",
-      },
-      {
-        phase: "Community Engagement",
-        description: "Worked with local communities to understand needs and co-create experience concepts.",
-      },
-      {
-        phase: "Modular Design",
-        description: "Created flexible, modular installations that could adapt to different spaces and contexts.",
-      },
-      {
-        phase: "Impact Assessment",
-        description: "Evaluated community response and long-term impact of temporary interventions.",
-      },
-    ],
-  },
 ]
 
 export default function ArchivePage() {
