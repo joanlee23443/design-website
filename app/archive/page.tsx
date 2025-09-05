@@ -9,15 +9,15 @@ const archiveProjects = [
   {
     id: "shwarriors-board-game",
     title: "Shwarriors: The Board Game",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/shwarriors-board-min.jpg",
     year: "2024",
     client: "Shwood Eyewear",
     description:
       "Highlights the unique, natural materials used by Shwood in their products in the form of a game you can play anywhere, from a camping trip in your living room. Meant to encourage adventure and play in your everyday life.",
     images: [
-      "/placeholder.svg?height=600&width=1200",
-      "/placeholder.svg?height=600&width=1200",
-      "/placeholder.svg?height=600&width=1200",
+      "/images/shwarriors-board-min.jpg",
+      "/images/shwarriors-pieces.jpg",
+      "/images/shwarriors-real.jpg",
     ],
   {
     id: "orlando-segd",
