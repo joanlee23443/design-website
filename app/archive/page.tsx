@@ -15,9 +15,9 @@ const archiveProjects = [
     description:
       "Highlights the unique, natural materials used by Shwood in their products in the form of a game you can play anywhere, from a camping trip in your living room. Meant to encourage adventure and play in your everyday life.",
     images: [
-      "/images/shwarriors-board-min.jpg",
       "/images/shwarriors-pieces.jpg",
       "/images/shwarriors-real.jpg",
+      "/images/shwarriors-board-min.jpg",
     ],
   {
     id: "orlando-segd",
