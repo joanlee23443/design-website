@@ -167,13 +167,11 @@ const archiveProjects = [
     ],
   },
   {
-    id: "pop-up-experience",
-    title: "Pop-up Experience Design",
+    id: "drawings-paintings",
+    title: "Illustrations",
     image: "/placeholder.svg?height=400&width=400",
-    year: "2024",
-    client: "Creative Collective",
     description:
-      "A series of temporary pop-up experiences that transform underutilized urban spaces into engaging community gathering places.",
+      "Drawings, paintings, and other traditional artwork.",
     images: [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
