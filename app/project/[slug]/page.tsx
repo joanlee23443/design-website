@@ -28,7 +28,7 @@ const projectData: Record<string, any> = {
         heading: "Interactive History",
         content:
           "A series of miniature spaces, designed based on various individuals' personal interpretations of home. Each room can be stacked in a box that allows it to be played with as a dollhouse, just as one did as a child, making new stories within the context of the old. Perhaps even strangers can find a home within Hiraeth's paper walls when they read through the small zines that contain personal accounts that pertain to each room.",
-        images: ["/images/hiraeth-rooms.png", "/images/hiraeth-rooms.png"],
+        images: ["/images/hiraeth-interviews.png", "/images/hiraeth-rooms.png"],
       },
       process: {
 
@@ -43,22 +43,23 @@ const projectData: Record<string, any> = {
             heading: "Building a Home",
             content:
               "I knew I wanted to use paper for these structures since I enjoyed the idea of the two-dimensional paper the interviewees used to sketch, turning into a three-dimensional model they could interact with. After a series of experiments, the best performing material proved to be bristol board, with its stiffness providing support and smoothness offering a clean aesthetic. Additionally, I prototyped various versions of a room (drawings printed onto the paper, coloring all surfaces, pop-up style, etc.), but feedback from my interviewees informed my decisions to leave the paper blank and fully construct 3D miniatures. Only the key elements from each room would be highlighted by making them out of colored papers. Everything was cut out using a Cricut Maker for the most precise edges, then glued by hand.",
-            images: ["/placeholder.svg?height=600&width=1200"],
+            images: ["/images/hiraeth-building.png", "/images/hiraeth-structures.png"],
           },
         ],
       },
       interaction: {
         heading: "Explore & Enjoy",
         content: "Each room has some combination of moveable parts, furniture pieces scaled to dolls, and hidden details. On top of that, they are modular and can be moved around within the dollhouse's frame to customize the layout of the home.",
-        images: ["/images/recent-project-interior.jpeg", "/images/recent-project-interior.jpeg"],
+        images: ["/images/hiraeth-interactions1.png", "/images/hiraeth-interactions2.png", "/images/hiraeth-interactions3.png", "/images/hiraeth-interactions4.png"],
       },
       gallery: {
         heading: "Written Form",
         content: "Zines made to keep record of each individual's stories, miniature homes, and spoken words.",
-        images: ["/placeholder.svg?height=600&width=1200"],
+        images: ["/images/hiraeth-zines.png", "/images/hiraeth-spreads.gif"],
       },
       reflection: {
         heading: "Tangible Storytelling",
+        images: ["/images/hiraeth-showcase2.png", "/images/hiraeth-showcase1.png"],
         content: "This dollhouse is simply a miniature model of a house. No screens, no buttons, no speakers... and yet, inherently interactive and engaging. Simplicity is often just as effective as complex ideas. This project made me confident that I could design an experience that was humble, but memorable. Additionally, the responses I received from the showcase reinforced the idea that products and spaces (as Hiraeth is, in a way, both) are effective media for storytelling, as friends and strangers alike commented that the mini rooms touched their hearts. I greatly enjoyed utilizing skills like model-making, UX research, and iterative prototyping that I had learned throughout the years, and pouring them into a project that resonated with my soul. Many thanks to Nicki, Roy, Minjoo, Izzy, Julianne, and Hannah for being so open and sharing your stories with me. When I began this project, I was only sure of two things--I wanted to connect with people and build something physical. Little did I know that would lead me to form such deep relationships with the people who were willing to participate. Moreover, thanks to Peter for always offering feedback, and to Dylan for being the most encouraging professor and consistently providing me with pep talks. Lastly, thank you Pittsburgh, for being a place where I now consider home.",
       },
     },
