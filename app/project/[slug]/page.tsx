@@ -27,7 +27,7 @@ const projectData: Record<string, any> = {
         heading: "Interactive History",
         content:
           "A series of miniature spaces, designed based on various individuals' personal interpretations of home. Each room can be stacked in a box that allows it to be played with as a dollhouse, just as one did as a child, making new stories within the context of the old. Perhaps even strangers can find a home within Hiraeth's paper walls when they read through the small zines that contain personal accounts that pertain to each room.",
-        images: ["/placeholder.svg?height=600&width=1200"],
+        images: ["/images/recent-project-interior.jpeg"],
       },
       process: {
 
