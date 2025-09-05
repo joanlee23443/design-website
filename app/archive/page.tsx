@@ -37,13 +37,12 @@ const archiveProjects = [
     title: "Type Studies",
     image: "/placeholder.svg?height=400&width=400",
     year: "2023",
-    client: "Highmark Health",
     description:
       "A multi-sensory pavilion that engages visitors through sound, light, texture, and scent to create immersive experiential narratives.",
     images: [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
-      "/placeholder.svg?height=600&width=1200",
+      "/images/blues-pposter.png",
     ],
   {
     id: "animal-project",
