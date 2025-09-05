@@ -241,7 +241,12 @@ export default function ArchivePage() {
         </div>
       </div>
 
-      <ProjectModal isOpen={isModalOpen} onClose={closeModal} project={selectedProject} />
+      <ProjectModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        project={selectedProject}
+        hideSidebar // <-- this hides the Process column and lets main content fill the space
+      />
     </main>
   )
 }
