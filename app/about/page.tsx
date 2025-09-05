@@ -68,7 +68,7 @@ export default function AboutPage() {
 
                   <p className="leading-loose">
                     Outside of the studio, my favorite things are baking and eating sweets, Tetris, my guitar, LSAT
-                    Demon (just for fun), Mashimaro, and my Bible.
+                    Demon, Mashimaro, NFL, and my Bible.
                   </p>
                 </div>
               </ScrollReveal>
