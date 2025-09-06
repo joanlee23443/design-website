@@ -32,7 +32,7 @@ const archiveProjects = [
       "/images/orlando-pattern.png",
       "/images/orlando-signage.png",
       "/images/orlando-postcards.png",
-      "/images/orlando-orlando-pres.png",
+      "/images/orlando-pres.png",
       "/images/orlando-hat.png",
       "/images/orlando-type.jpg",
     ],
