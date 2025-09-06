@@ -19,7 +19,8 @@ const archiveProjects = [
       "/images/shwarriors-real.jpg",
       "/images/shwarriors-board-min.jpg",
     ],
-  {
+  }, {
+
     id: "orlando-segd",
     title: "SEGD Orlando: Type + Environmental Design",
     image: "/images/orlando-pattern.png",
@@ -36,7 +37,8 @@ const archiveProjects = [
       "/images/orlando-hat.png",
       "/images/orlando-type.jpg",
     ],
-  {
+  }, {
+
     id: "type-studies",
     title: "Type Studies",
     image: "/images/blues-pposter.png",
@@ -45,8 +47,10 @@ const archiveProjects = [
       "/images/type-spread.webp",
       "/images/blues-pposter.png",
     ],
-    videos: ["https://vimeo.com/760413943?fl=pl&fe=sh"]
-  {
+    videos: ["https://vimeo.com/760413943?fl=pl&fe=sh"
+    ],
+  }, {
+
     id: "animal-project",
     title: "California Brown Pelican: A 3-Part Series",
     image: "/images/pelican-coverr.png",
@@ -58,8 +62,10 @@ const archiveProjects = [
       "/images/pelican-back.webp",
       "/images/pelican-closeup.webp",
     ],
-    videos: ["https://vimeo.com/826243059?share=copy"]
-  {
+    videos: ["https://vimeo.com/826243059?share=copy"
+    ],
+  }, {
+
     id: "pitt-water-map",
     title: "PGH Water Quality Systems Map",
     image: "/images/pgh-water.avif",
@@ -70,7 +76,8 @@ const archiveProjects = [
     images: [
       "/images/pgh-water.avif",
     ],
-  {
+  }, {
+
     id: "mixed-illust",
     title: "2D/3D Illustrations",
     image: "/images/illust-cover.jpg",
@@ -81,8 +88,10 @@ const archiveProjects = [
       "/images/illust-butterflies.png",
       "/images/illust-blue.png",
     ],
-    videos: ["https://vimeo.com/822131126?fl=pl&fe=sh"]
-]
+    videos: ["https://vimeo.com/822131126?fl=pl&fe=sh"
+    ],
+  }, {
+
 
 export default function ArchivePage() {
   const [selectedProject, setSelectedProject] = useState<(typeof archiveProjects)[0] | null>(null)
