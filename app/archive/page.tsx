@@ -45,6 +45,7 @@ const archiveProjects = [
       "/images/type-spread.webp",
       "/images/blues-pposter.png",
     ],
+    videos: ["https://vimeo.com/826243059?share=copy"]
   {
     id: "animal-project",
     title: "California Brown Pelican: A 3-Part Series",
@@ -77,6 +78,7 @@ const archiveProjects = [
       "/placeholder.svg?height=600&width=1200",
       "/placeholder.svg?height=600&width=1200",
     ],
+    videos: ["https://vimeo.com/822131126?fl=pl&fe=sh"]
 ]
 
 export default function ArchivePage() {
