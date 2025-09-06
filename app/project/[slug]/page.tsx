@@ -662,20 +662,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                 </div>
               </ScrollReveal>
 
-              {/* Vimeo embed for Imagine USA Pavilion */}
-              {slug === "imagine-usa-pavilion" && (
-                <div className="mb-16">
-                  <div className="aspect-video w-full">
-                    <iframe
-                      src="https://player.vimeo.com/video/893730637?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                      frameBorder="0"
-                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                      className="w-full h-full"
-                      title="Imagine USA Pavilion Video"
-                    ></iframe>
-                  </div>
-                </div>
-              )}
+
 
               {slug === "serenitea" && (
                 <div className="mb-16">
