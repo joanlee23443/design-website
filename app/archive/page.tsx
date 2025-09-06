@@ -75,11 +75,11 @@ const archiveProjects = [
     title: "2D/3D Illustrations",
     image: "/images/illust-cover.jpg",
     images: [
-      "/images/illust-rhino.jpg",
-      "/images/illust-snails.jpg",
-      "/images/illust-vest.jpg",
-      "/images/illust-butterflies.jpg",
-      "/images/illust-blue.jpg",
+      "/images/illust-rhino.png",
+      "/images/illust-snails.png",
+      "/images/illust-vest.png",
+      "/images/illust-butterflies.png",
+      "/images/illust-blue.png",
     ],
     videos: ["https://vimeo.com/822131126?fl=pl&fe=sh"]
 ]
