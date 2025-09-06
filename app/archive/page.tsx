@@ -22,15 +22,19 @@ const archiveProjects = [
   {
     id: "orlando-segd",
     title: "SEGD Orlando: Type + Environmental Design",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/orlando-pattern.png",
     year: "2023",
     client: "City of Orlando",
     description:
       "Type, logo, signage, and merchandise design for a speculative SEGD conference in Orlando, Florida.",
     images: [
       "/images/orlando-logo.png",
+      "/images/orlando-pattern.png",
+      "/images/orlando-signage.png",
+      "/images/orlando-postcards.png",
+      "/images/orlando-orlando-pres.png",
+      "/images/orlando-hat.png",
       "/images/orlando-type.jpg",
-      "/placeholder.svg?height=600&width=1200",
     ],
   {
     id: "type-studies",
@@ -44,13 +48,14 @@ const archiveProjects = [
   {
     id: "animal-project",
     title: "California Brown Pelican: A 3-Part Series",
-    image: "/images/pelican-closeup.webp",
+    image: "/images/pelican-coverr.png",
     year: "2022",
     description: `Telling the story of the endangered bird with a 2D illustration, 3D sculpture, and animation. Full process on <a href="https://medium.com/@joanlee2" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-300">Medium</a>.`,
     images: [
       "/images/pelican-illust.webp",
       "/images/pelican-3d.webp",
       "/images/pelican-back.webp",
+      "/images/pelican-closeup.webp",
     ],
   {
     id: "pitt-water-map",
