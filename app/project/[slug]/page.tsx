@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Lock } from "lucide-react"
 import ScrollReveal from "@/components/scroll-reveal"
+import VimeoEmbed from "@/components/vimeo-embed"
 
 const projectData: Record<string, any> = {
   hiraeth: {
@@ -31,8 +32,7 @@ const projectData: Record<string, any> = {
         images: ["/images/hiraeth-interviews.png", "/images/hiraeth-rooms.png"],
       },
       process: {
-
-      subsections: [
+        subsections: [
           {
             heading: "Story Collection",
             content:
@@ -49,8 +49,14 @@ const projectData: Record<string, any> = {
       },
       interaction: {
         heading: "Explore & Enjoy",
-        content: "Each room has some combination of moveable parts, furniture pieces scaled to dolls, and hidden details. On top of that, they are modular and can be moved around within the dollhouse's frame to customize the layout of the home.",
-        images: ["/images/hiraeth-interactions1.png", "/images/hiraeth-interactions2.png", "/images/hiraeth-interactions3.png", "/images/hiraeth-interactions4.png"],
+        content:
+          "Each room has some combination of moveable parts, furniture pieces scaled to dolls, and hidden details. On top of that, they are modular and can be moved around within the dollhouse's frame to customize the layout of the home.",
+        images: [
+          "/images/hiraeth-interactions1.png",
+          "/images/hiraeth-interactions2.png",
+          "/images/hiraeth-interactions3.png",
+          "/images/hiraeth-interactions4.png",
+        ],
       },
       gallery: {
         heading: "Written Form",
@@ -60,7 +66,8 @@ const projectData: Record<string, any> = {
       reflection: {
         heading: "Tangible Storytelling",
         images: ["/images/hiraeth-showcase2.png", "/images/hiraeth-showcase1.png"],
-        content: "This dollhouse is simply a miniature model of a house. No screens, no buttons, no speakers... and yet, inherently interactive and engaging. Simplicity is often just as effective as complex ideas. This project made me confident that I could design an experience that was humble, but memorable. Additionally, the responses I received from the showcase reinforced the idea that products and spaces (as Hiraeth is, in a way, both) are effective media for storytelling, as friends and strangers alike commented that the mini rooms touched their hearts. I greatly enjoyed utilizing skills like model-making, UX research, and iterative prototyping that I had learned throughout the years, and pouring them into a project that resonated with my soul. Many thanks to Nicki, Roy, Minjoo, Izzy, Julianne, and Hannah for being so open and sharing your stories with me. When I began this project, I was only sure of two things--I wanted to connect with people and build something physical. Little did I know that would lead me to form such deep relationships with the people who were willing to participate. Moreover, thanks to Peter for always offering feedback, and to Dylan for being the most encouraging professor and consistently providing me with pep talks. Lastly, thank you Pittsburgh, for being a place where I now consider home.",
+        content:
+          "This dollhouse is simply a miniature model of a house. No screens, no buttons, no speakers... and yet, inherently interactive and engaging. Simplicity is often just as effective as complex ideas. This project made me confident that I could design an experience that was humble, but memorable. Additionally, the responses I received from the showcase reinforced the idea that products and spaces (as Hiraeth is, in a way, both) are effective media for storytelling, as friends and strangers alike commented that the mini rooms touched their hearts. I greatly enjoyed utilizing skills like model-making, UX research, and iterative prototyping that I had learned throughout the years, and pouring them into a project that resonated with my soul. Many thanks to Nicki, Roy, Minjoo, Izzy, Julianne, and Hannah for being so open and sharing your stories with me. When I began this project, I was only sure of two things--I wanted to connect with people and build something physical. Little did I know that would lead me to form such deep relationships with the people who were willing to participate. Moreover, thanks to Peter for always offering feedback, and to Dylan for being the most encouraging professor and consistently providing me with pep talks. Lastly, thank you Pittsburgh, for being a place where I now consider home.",
       },
     },
     programs: ["Adobe Ai/PS", "Cricut"],
@@ -79,26 +86,33 @@ const projectData: Record<string, any> = {
     sections: {
       context: {
         heading: "Brand Essence",
-        content: "<a href='https://shwoodshop.com/' target='_blank' rel='noopener noreferrer' class='underline hover:text-gray-300'>Shwood</a> is an eyewear brand that stands out for its broad use of materials in its frames. They are also known for their lighthearteded personality and quirky founding story. How can we showcase these selling points while bringing in a new audience? Full research deck <a href='https://drive.google.com/file/d/1-jgz-RmeiwWJT8-CGl1qDOFRyXae3XFp/view?usp=sharing' target='_blank' rel='noopener noreferrer' class='underline hover:text-gray-300'>here</a>.",
+        content:
+          "<a href='https://shwoodshop.com/' target='_blank' rel='noopener noreferrer' class='underline hover:text-gray-300'>Shwood</a> is an eyewear brand that stands out for its broad use of materials in its frames. They are also known for their lighthearteded personality and quirky founding story. How can we showcase these selling points while bringing in a new audience? Full research deck <a href='https://drive.google.com/file/d/1-jgz-RmeiwWJT8-CGl1qDOFRyXae3XFp/view?usp=sharing' target='_blank' rel='noopener noreferrer' class='underline hover:text-gray-300'>here</a>.",
         images: ["/images/shwood-research.png"],
       },
       concept: {
         heading: "Bringing Adventure Into the Everyday",
-        content: "A familiar, mundane office cubicle that's been... consumed by nature? Why is there a computer with a half-wooden keyboard asking for a password? Explore this curious space and search for answers with Shwood as you sift through drawers full of foliage and printers that dispense bark.",
+        content:
+          "A familiar, mundane office cubicle that's been... consumed by nature? Why is there a computer with a half-wooden keyboard asking for a password? Explore this curious space and search for answers with Shwood as you sift through drawers full of foliage and printers that dispense bark.",
         images: ["/images/shwood-hero.jpg"],
       },
       process: {
         heading: "Where + How",
-        content: "I selected Market Square in downtown Pittsburgh as the project location. This site often hosts live events and vendors, and is right beside office buildings like PPG Place and PNC Bank. The green of the nature in Shwood's pop-up would contrast with the gray surroundings, which would intrigue anyone walking by. The time of year this event would set up would be spring or summer, as those seasons bring in an influx of new employees to the city and weather nice enough for participation in an outdoor activity. As for the visualization of this concept, I was able to 3D model, design UI, iterate on spatial movements, roleplay emotional reactions, and consider logistics, such as the presence of moderators in the form of NPC-like actors. I learned to refine every step, from beginning (seeing the structure in the distance) to end (leaving with newfound attitudes). Additionally, based on the objectives, I decided that the KPIs of this experience would be newsletter sign-ups and social media posts.",
+        content:
+          "I selected Market Square in downtown Pittsburgh as the project location. This site often hosts live events and vendors, and is right beside office buildings like PPG Place and PNC Bank. The green of the nature in Shwood's pop-up would contrast with the gray surroundings, which would intrigue anyone walking by. The time of year this event would set up would be spring or summer, as those seasons bring in an influx of new employees to the city and weather nice enough for participation in an outdoor activity. As for the visualization of this concept, I was able to 3D model, design UI, iterate on spatial movements, roleplay emotional reactions, and consider logistics, such as the presence of moderators in the form of NPC-like actors. I learned to refine every step, from beginning (seeing the structure in the distance) to end (leaving with newfound attitudes). Additionally, based on the objectives, I decided that the KPIs of this experience would be newsletter sign-ups and social media posts.",
         images: ["/images/shwood-location.png", "/images/shwood-figma-process.png", "/images/shwood-3d-modeling.png"],
       },
       interaction: {
-      subsections: [
+        subsections: [
           {
             heading: "First Contact",
             content:
               "For the average office worker in downtown Pittsburgh, the initial impression of this pop-up is curiosity. What is that patch of green on this otherwise gray view? Something's different between these cubicles and the ones they just left...",
-            images: ["/images/shwood-grid-aerial.png", "/images/shwood-outdoor-view.png", "/images/forrest-shwoodson-interior.jpeg"],
+            images: [
+              "/images/shwood-grid-aerial.png",
+              "/images/shwood-outdoor-view.png",
+              "/images/forrest-shwoodson-interior.jpeg",
+            ],
           },
           {
             heading: "Into the Woods",
@@ -134,7 +148,8 @@ const projectData: Record<string, any> = {
       },
       reflection: {
         heading: "Designing is Worldbuilding",
-        content: "Curating a gamified experience pushed me to consider every detail of the experience, from logistics, to the activity itself, to the quantifiable measures of success. How can I justify each design decision with the brand's values, products, and objectives? Would this feature benefit both the client and the consumers? Why should the visitor want to engage more with the brand? These are some examples of questions I had to ask myself in order to curate a pop-up that was both intriguing and effective. Immersive spaces are able to move people in a special way because they are memorable and interactive in a way that totally envelops you in a new world. Many thanks to Daphne, who gave hugely constructive feedback and constantly gave suggestions that supported my ideas.",
+        content:
+          "Curating a gamified experience pushed me to consider every detail of the experience, from logistics, to the activity itself, to the quantifiable measures of success. How can I justify each design decision with the brand's values, products, and objectives? Would this feature benefit both the client and the consumers? Why should the visitor want to engage more with the brand? These are some examples of questions I had to ask myself in order to curate a pop-up that was both intriguing and effective. Immersive spaces are able to move people in a special way because they are memorable and interactive in a way that totally envelops you in a new world. Many thanks to Daphne, who gave hugely constructive feedback and constantly gave suggestions that supported my ideas.",
       },
     },
     programs: ["Rhino", "Figma", "Adobe PS/Ai"],
@@ -235,11 +250,17 @@ const projectData: Record<string, any> = {
       gallery: {
         heading: "Physical Prototype",
         imageLayout: "grid-cols-2",
-        images: ["/images/orli-installation.png", "/images/orli-title-slide.png", "/images/orli-3d-print.avif", "/images/orli-tech-diagram.webp"],
+        images: [
+          "/images/orli-installation.png",
+          "/images/orli-title-slide.png",
+          "/images/orli-3d-print.avif",
+          "/images/orli-tech-diagram.webp",
+        ],
       },
       reflection: {
         heading: "Personality of Products",
-        content: "My designs aim to evoke certain emotional responses from guests, hence why I always make an effort to empathize with the consumers of a product or space. Orli was the first project in which I put myself also in the product's shoes to see how it would feel. How would Orli behave if a user is not using AI? He wouldn't know what the user is doing, so maybe he would be searching for an answer while he waits. This lamp is like a pet that requires some food but not too much--it is fueled by your AI usage while also being overwhelmed when you pass your limit. It asks for a great deal of attention, but the cute eyes make up for it; after all, it's just doing its job. Considering the character traits of the product enhances the experience for the user as it makes the interactions more believable, and therefore more engaging. Many thanks to Sojung and Juhi, for making up a team that was able to blend ideas and create something memorable. Thanks also to Dina, who encouraged us continuously and provided us with the equipment necessary.",
+        content:
+          "My designs aim to evoke certain emotional responses from guests, hence why I always make an effort to empathize with the consumers of a product or space. Orli was the first project in which I put myself also in the product's shoes to see how it would feel. How would Orli behave if a user is not using AI? He wouldn't know what the user is doing, so maybe he would be searching for an answer while he waits. This lamp is like a pet that requires some food but not too much--it is fueled by your AI usage while also being overwhelmed when you pass your limit. It asks for a great deal of attention, but the cute eyes make up for it; after all, it's just doing its job. Considering the character traits of the product enhances the experience for the user as it makes the interactions more believable, and therefore more engaging. Many thanks to Sojung and Juhi, for making up a team that was able to blend ideas and create something memorable. Thanks also to Dina, who encouraged us continuously and provided us with the equipment necessary.",
       },
     },
     programs: ["Figma", "Arduino", "Adobe Ae", "Rhino"],
@@ -648,7 +669,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   {project.introImage && (
                     <div className="mt-8">
                       <Image
-                        src={project.introImage}
+                        src={project.introImage || "/placeholder.svg"}
                         alt={`${project.title} intro`}
                         width={1200}
                         height={800}
@@ -662,34 +683,21 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                 </div>
               </ScrollReveal>
 
-
-
-              {slug === "serenitea" && (
+              {slug === "imagine-usa-pavilion" && (
                 <div className="mb-16">
-                  <div className="aspect-video w-full">
-                    <iframe
-                      src="https://player.vimeo.com/video/1114564858?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                      frameBorder="0"
-                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                      className="w-full h-full"
-                      title="Serenitea Interactive Demo"
-                    ></iframe>
-                  </div>
+                  <VimeoEmbed videoId="893730637" title="Imagine USA Pavilion Video" className="w-full" />
                 </div>
               )}
 
-              {/* Vimeo embed for Orli */}
+              {slug === "serenitea" && (
+                <div className="mb-16">
+                  <VimeoEmbed videoId="1114564858" title="Serenitea Interactive Demo" className="w-full" />
+                </div>
+              )}
+
               {slug === "orli" && (
                 <div className="mb-16">
-                  <div className="aspect-video w-full">
-                    <iframe
-                      src="https://player.vimeo.com/video/1114968306?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                      frameBorder="0"
-                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                      className="w-full h-full"
-                      title="Orli Interactive Demo"
-                    ></iframe>
-                  </div>
+                  <VimeoEmbed videoId="1114968306" title="Orli Interactive Demo" className="w-full" />
                 </div>
               )}
 
@@ -705,21 +713,9 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                 </ScrollReveal>
               ) : project.sections ? (
                 <div className="space-y-16">
-                  {params.slug === "imagine-usa-pavilion" && (
-                    <ScrollReveal delay={200}>
-                      <div className="relative w-full aspect-video max-w-4xl">
-                        <iframe
-                          src="https://player.vimeo.com/video/893730637?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                          width="100%"
-                          height="100%"
-                          frameBorder="0"
-                          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                          title="Imagine: USA Pavilion"
-                          className="absolute inset-0 w-full h-full rounded"
-                        />
-                      </div>
-                    </ScrollReveal>
-                  )}
+                  <ScrollReveal delay={200}>
+
+                  </ScrollReveal>
 
                   {sectionOrder.map((sectionKey, index) => {
                     const section = project.sections[sectionKey]
@@ -1183,7 +1179,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                           )}
 
                           {/* Special handling for interaction subsections */}
-                            {section.subsections && (
+                          {section.subsections && (
                             <div className="space-y-12 mt-8">
                               {section.subsections.map((subsection: any, subIndex: number) => (
                                 <div key={subIndex} className="space-y-6">
@@ -1207,13 +1203,13 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                                             </div>
                                           ))}
                                         </div>
-                                        ) : subsection.imageLayout === "side-by-side-with-captions" ? (
+                                      ) : subsection.imageLayout === "side-by-side-with-captions" ? (
                                         // Small gifs with captions to the right
                                         <div className="space-y-6 mt-6">
                                           {subsection.images.map((src: string, idx: number) => (
                                             <div key={idx} className="flex items-center space-x-4">
                                               <Image
-                                                src={src}
+                                                src={src || "/placeholder.svg"}
                                                 alt={subsection.captions?.[idx] || ""}
                                                 width={500}
                                                 height={500}
