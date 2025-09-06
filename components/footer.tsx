@@ -58,7 +58,7 @@ export default function Footer() {
             <Mail className="w-6 h-6" />
           </Link>
           <Link
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/186gFWle9XHGEcNd-vFNZOvHZRLtXr6RG/view?usp=sharing"
             target="_blank"
             className="text-white/60 hover:text-white transition-all duration-300"
             aria-label="Resume"
