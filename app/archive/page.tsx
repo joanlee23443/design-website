@@ -29,19 +29,16 @@ const archiveProjects = [
       "Type, logo, signage, and merchandise design for a speculative SEGD conference in Orlando, Florida.",
     images: [
       "/placeholder.svg?height=600&width=1200",
-      "/placeholder.svg?height=600&width=1200",
+      "/images/orlando-type.jpg",
       "/placeholder.svg?height=600&width=1200",
     ],
   {
     id: "type-studies",
     title: "Type Studies",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/blues-pposter.png",
     year: "2023",
-    description:
-      "A multi-sensory pavilion that engages visitors through sound, light, texture, and scent to create immersive experiential narratives.",
     images: [
-      "/placeholder.svg?height=600&width=1200",
-      "/placeholder.svg?height=600&width=1200",
+      "/images/type-spread.webp",
       "/images/blues-pposter.png",
     ],
   {
