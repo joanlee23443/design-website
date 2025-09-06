@@ -4,6 +4,12 @@ import { useEffect } from "react"
 import Image from "next/image"
 import { X } from "lucide-react"
 
+const toVimeoEmbed = (url: string) => {
+  if (url.includes("player.vimeo.com/video/")) return url
+  const idMatch = url.match(/vimeo\.com\/(\d+)/)
+  return idMatch ? `https://player.vimeo.com/video/${idMatch[1]}` : url
+}
+
 interface ProjectModalProps {
   isOpen: boolean
   onClose: () => void
@@ -13,6 +19,7 @@ interface ProjectModalProps {
     client: string
     description: string
     images: string[]
+    videos?: string[]
     process?: Array<{
       phase: string
       description: string
@@ -78,20 +85,51 @@ export default function ProjectModal({
               </div>
 
               <div className="space-y-4">
-                {project.images.map((image, index) => (
-                  <div key={index} className="relative w-full">
+                {/* First image */}
+                {project.images?.[0] && (
+                  <div className="relative w-full">
+                    <Image
+                      src={project.images[0] || "/placeholder.svg"}
+                      alt={`${project.title} - Image 1`}
+                      width={1600}
+                      height={1000}
+                      className="w-full h-auto rounded"
+                      sizes="(min-width: 1024px) 900px, 100vw"
+                      priority
+                    />
+                  </div>
+                )}
+              
+                {/* Vimeo embed AFTER the first image */}
+                {project.videos?.[0] && (
+                  // Responsive 16:9 wrapper without needing Tailwind's aspect-video
+                  <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+                    <iframe
+                      src={toVimeoEmbed(project.videos[0])}
+                      title={`${project.title} – Video`}
+                      className="absolute inset-0 w-full h-full rounded"
+                      frameBorder="0"
+                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                      allowFullScreen
+                    />
+                  </div>
+                )}
+              
+                {/* Remaining images */}
+                {project.images?.slice(1).map((image, index) => (
+                  <div key={`img-${index + 2}`} className="relative w-full">
                     <Image
                       src={image || "/placeholder.svg"}
-                      alt={`${project.title} - Image ${index + 1}`}
-                      width={1600}          // any reasonable dimensions that match your image aspect
+                      alt={`${project.title} - Image ${index + 2}`}
+                      width={1600}
                       height={1000}
-                      className="w-full h-auto rounded"  // fills width, keeps aspect; no cropping
+                      className="w-full h-auto rounded"
                       sizes="(min-width: 1024px) 900px, 100vw"
-                      priority={index === 0}
                     />
                   </div>
                 ))}
               </div>
+
 
             </div>
 
