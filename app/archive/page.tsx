@@ -14,20 +14,15 @@ const archiveProjects = [
     client: "Shwood Eyewear",
     description:
       "Highlights the unique, natural materials used by Shwood in their products in the form of a game you can play anywhere, from a camping trip in your living room. Meant to encourage adventure and play in your everyday life.",
-    images: [
-      "/images/shwarriors-pieces.jpg",
-      "/images/shwarriors-real.jpg",
-      "/images/shwarriors-board-min.jpg",
-    ],
-  }, {
-
+    images: ["/images/shwarriors-pieces.jpg", "/images/shwarriors-real.jpg", "/images/shwarriors-board-min.jpg"],
+  },
+  {
     id: "orlando-segd",
     title: "SEGD Orlando: Type + Environmental Design",
     image: "/images/orlando-pattern.png",
     year: "2023",
     client: "City of Orlando",
-    description:
-      "Type, logo, signage, and merchandise design for a speculative SEGD conference in Orlando, Florida.",
+    description: "Type, logo, signage, and merchandise design for a speculative SEGD conference in Orlando, Florida.",
     images: [
       "/images/orlando-logo.png",
       "/images/orlando-pattern.png",
@@ -37,20 +32,16 @@ const archiveProjects = [
       "/images/orlando-hat.png",
       "/images/orlando-type.jpg",
     ],
-  }, {
-
+  },
+  {
     id: "type-studies",
     title: "Type Studies",
     image: "/images/blues-pposter.png",
     year: "2023",
-    images: [
-      "/images/type-spread.webp",
-      "/images/blues-pposter.png",
-    ],
-    videos: ["https://vimeo.com/760413943?fl=pl&fe=sh"
-    ],
-  }, {
-
+    images: ["/images/type-spread.webp", "/images/blues-pposter.png"],
+    videos: ["https://vimeo.com/760413943?fl=pl&fe=sh"],
+  },
+  {
     id: "animal-project",
     title: "California Brown Pelican: A 3-Part Series",
     image: "/images/pelican-coverr.png",
@@ -62,10 +53,9 @@ const archiveProjects = [
       "/images/pelican-back.webp",
       "/images/pelican-closeup.webp",
     ],
-    videos: ["https://vimeo.com/826243059?share=copy"
-    ],
-  }, {
-
+    videos: ["https://vimeo.com/826243059?share=copy"],
+  },
+  {
     id: "pitt-water-map",
     title: "PGH Water Quality Systems Map",
     image: "/images/pgh-water.avif",
@@ -73,11 +63,9 @@ const archiveProjects = [
     client: "Team: Sojung Pak, Ethan Huang",
     description:
       "Systems map of the urgent matter that is Pittsburgh's highly contaminated water, from the root causes to possible interventions.",
-    images: [
-      "/images/pgh-water.avif",
-    ],
-  }, {
-
+    images: ["/images/pgh-water.avif"],
+  },
+  {
     id: "mixed-illust",
     title: "2D/3D Illustrations",
     image: "/images/illust-cover.jpg",
@@ -88,10 +76,9 @@ const archiveProjects = [
       "/images/illust-butterflies.png",
       "/images/illust-blue.png",
     ],
-    videos: ["https://vimeo.com/822131126?fl=pl&fe=sh"
-    ],
-  }, {
-
+    videos: ["https://vimeo.com/822131126?fl=pl&fe=sh"],
+  },
+]
 
 export default function ArchivePage() {
   const [selectedProject, setSelectedProject] = useState<(typeof archiveProjects)[0] | null>(null)
