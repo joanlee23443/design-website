@@ -58,7 +58,7 @@ const archiveProjects = [
       "/images/pelican-back.webp",
       "/images/pelican-closeup.webp",
     ],
-    videos: ["https://vimeo.com/826243059?share=copy"]
+    videos: ["https://vimeo.com/760413943?fl=pl&fe=sh"]
   {
     id: "pitt-water-map",
     title: "PGH Water Quality Systems Map",
