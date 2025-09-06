@@ -64,6 +64,7 @@ const archiveProjects = [
     title: "PGH Water Quality Systems Map",
     image: "/images/pgh-water.avif",
     year: "2022",
+    client: "Team: Sojung Pak, Ethan Huang",
     description:
       "Systems map of the urgent matter that is Pittsburgh's highly contaminated water, from the root causes to possible interventions.",
     images: [
@@ -72,11 +73,13 @@ const archiveProjects = [
   {
     id: "mixed-illust",
     title: "2D/3D Illustrations",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/illust-cover.jpg",
     images: [
-      "/placeholder.svg?height=600&width=1200",
-      "/placeholder.svg?height=600&width=1200",
-      "/placeholder.svg?height=600&width=1200",
+      "/images/illust-rhino.jpg",
+      "/images/illust-snails.jpg",
+      "/images/illust-vest.jpg",
+      "/images/illust-butterflies.jpg",
+      "/images/illust-blue.jpg",
     ],
     videos: ["https://vimeo.com/822131126?fl=pl&fe=sh"]
 ]
